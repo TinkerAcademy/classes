@@ -1,8 +1,10 @@
 #!/usr/bin/python
+
 ###############################################################################
-## Tinker Academy Maintenance Script
-## 
-## Copyright Tinker Academy 2014
+#
+#   Fix Quiz Files
+#
+#   Copyright Tinker Academy 2014
 ###############################################################################
 
 import os
