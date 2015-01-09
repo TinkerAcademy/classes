@@ -4,8 +4,8 @@
 ## 
 ## Copyright Tinker Academy 2014
 ###############################################################################
-export DROPBOX=/home/student/.dropbox
-export DROPBOXD=/home/student/.dropbox-dist/dropboxd
+export DROPBOX=/home/tinkeracademystudent/.dropbox
+export DROPBOXD=/home/tinkeracademystudent/.dropbox-dist/dropboxd
 cd
 if [ ! -d $DROPBOX ];
 then

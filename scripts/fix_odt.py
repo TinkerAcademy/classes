@@ -24,7 +24,7 @@ from tinkeracademy import TinkerAcademyMessage
 from tinkeracademy import TinkerAcademyConfirmDialog
 from tinkeracademy import TinkerAcademyMessage
 
-BASE_LOCAL='/home/student/Documents/tinkeracademy/Courses'
+BASE_LOCAL='/home/tinkeracademystudent/Documents/tinkeracademy/Courses'
 
 def close_all_running_instances():
 	log_message('close_all_running_instances enter')

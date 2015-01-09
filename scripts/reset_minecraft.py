@@ -25,7 +25,7 @@ from tinkeracademy import TinkerAcademyConfirmDialog
 def reset_minecraft():
 	log_message('reset_minecraft enter')
 	try:
-		subprocess.call(['rm', '-rf', '/home/student/.minecraft'])
+		subprocess.call(['rm', '-rf', '/home/tinkeracademystudent/.minecraft'])
 		msg = 'Minecraft reset successfully'
 		gui = TinkerAcademyMessage(msg)
 		gui.show()

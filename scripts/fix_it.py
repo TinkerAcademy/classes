@@ -12,12 +12,12 @@ import subprocess
 from tinkeracademy import log_message
 from tinkeracademy import log_error
 
-BASE_REMOTE= '/home/student/.Dropbox/Dropbox/classes/scripts'
+BASE_REMOTE= '/home/tinkeracademystudent/Dropbox/classes/scripts'
 
 FIX_IT_FILES = [
-	os.path.join(BASE_REMOTE,'reset_submit.py'),
-	os.path.join(BASE_REMOTE,'fix_odt.py'),
-	os.path.join(BASE_REMOTE,'reset_minecraft.py')
+	# os.path.join(BASE_REMOTE,'reset_submit.py'),
+	# os.path.join(BASE_REMOTE,'fix_odt.py'),
+	# os.path.join(BASE_REMOTE,'reset_minecraft.py')
 ]
 
 def main():

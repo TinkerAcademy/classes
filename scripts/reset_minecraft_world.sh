@@ -1,5 +1,5 @@
 #!/bin/bash
-MINECRAFT_HOME=/home/student/Documents/minecraft/server
+MINECRAFT_HOME=/home/tinkeracademystudent/Documents/minecraft/server
 pushd .
 cd $MINECRAFT_HOME/world || exit 1
 rm -rf *

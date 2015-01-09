@@ -25,7 +25,8 @@ from tinkeracademy import TinkerAcademyConfirmDialog
 def reset_submit():
 	log_message('reset_submit enter')
 	try:
-		remote_student_path = get_remote_student_path()
+		student_id = read_student_id()
+		remote_student_path = get_remote_student_path(student_id)
 		subprocess.call(['rm', '-rf', remote_student_path])
 		msg = 'Run Course Submit Again after a few minutes!'
 		gui = TinkerAcademyMessage(msg)
