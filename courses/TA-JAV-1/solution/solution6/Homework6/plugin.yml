@@ -1,0 +1,12 @@
+name: MyMinecraftHouse
+version: 1.0.0
+description: Builds a Minecraft house
+author: student@tinkeracademy.com
+
+main: com.tinkeracademy.java.Homework6
+
+commands:
+    buildwoodhouse:
+        description: Builds a Minecraft House made of wood
+
+
